@@ -4,6 +4,7 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
+    "watch": "hugo server -w",
     "build": "hugo --destination public && cp CNAME public/",
     "gh-pages": "gh-pages -d public",
     "deploy": "npm run build && npm run gh-pages"
