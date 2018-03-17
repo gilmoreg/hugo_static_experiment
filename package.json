@@ -1,0 +1,22 @@
+{
+  "name": "static_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilmoreg/static_portfolio.git"
+  },
+  "author": "Grayson Gilmore (gilmoreg@live.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilmoreg/static_portfolio/issues"
+  },
+  "homepage": "https://github.com/gilmoreg/static_portfolio#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
