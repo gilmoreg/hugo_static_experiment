@@ -1,2 +1,5 @@
 baseURL = "http://gilmoreg.com/"
 theme = "gilmoreg"
+languageCode = "en-us"
+title = "Grayson Gilmore - Portfolio"
+staticDir = ["static"]
