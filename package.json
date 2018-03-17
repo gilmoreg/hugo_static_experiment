@@ -4,7 +4,9 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "build": "hugo --destination public && cp CNAME public/",
+    "gh-pages": "gh-pages -d public",
+    "deploy": "npm run build && npm run gh-pages"
   },
   "repository": {
     "type": "git",
